@@ -318,6 +318,9 @@ footer {
         --btn-padding: 8px 16px;
         --font-size-btn: .8rem;
     }
+    .input-btn input {
+        padding: 8px;
+    }
 
     .grid-container {
         gap: 10px;
