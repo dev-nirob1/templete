@@ -1,33 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive templete</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <h1>
 
-            </h1>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Services</a>
-                    <a href="">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <div class="img">
-
-            </div>
-            <div class="banner-content">
-                
+<div>
+    <header class="header-content">
+        <div class="container">
+            <nav>
+                <h1>
+                    LOGO
+                </h1>
+                <div class="hamburger">
+                    Menu
+                </div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li> <a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Global Mail Express</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus ut magnam, accusantium
+                        ipsam officia similique vel labore delectus voluptatem quae!</p>
+                    <div class="btn-container">
+                        <button class="btn-primary">
+                            Learn More
+                        </button>
+                        <button class="btn-secondary">
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+</div>
+
+<!-- about section  -->
+<section class="about">
+    <div class="container about-container">
+        <div class="left">
+            <h1>Who We Are</h1>
+            <p class="section-description">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, natus architecto hic cum ut non
+                dignissimos autem aperiam adipisci odit! Magnam, distinctio. Sit consequatur saepe, ducimus omnis
+                eius fugit beatae?
+            </p>
+            <button class="btn-primary">
+                More Details
+            </button>
+        </div>
+        <div class="right">
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/R3GfuzLMPkA?si=KgVGn3_k-zxHXbTn" title="YouTube video player"
+                    frameborder="2"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--services section-->
+
+<section class="services">
+    <div class="container">
+        <h1 class="section-title">Our Outstanding Services</h1>
+        <div class="grid-container">
+            <div class="grid-item">(icon1)</div>
+            <div class="grid-item active">(icon2)</div>
+            <div class="grid-item">(icon3)</div>
+            <div class="grid-item">(icon4)</div>
+            <div class="grid-item">(icon5)</div>
+            <div class="grid-item">(icon6)</div>
+            <div class="grid-item">(icon7)</div>
+            <div class="grid-item">(icon8)</div>
+        </div>
+    </div>
+</section>
+
+<!-- track your product section  -->
+<section class="track-product">
+    <div class="container">
+        <div class="product-container">
+            <h1>Track Your Product</h1>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem officiis, nemo quis delectus dolorum
+                odit
+                pariatur eaque autem ad ullam voluptatem officia facilis accusamus repudiandae aliquid numquam
+                temporibus,
+                modi
+                illum.</p>
+            <div>
+                <div class="input-btn">
+                    <input type="text" placeholder="Enter Your Email">
+                    <button class="btn-secondary">Track Your Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact form  -->
+
+<section class="contact-form">
+    <h1 class="section-title">Contact Us</h1>
+    <form>
+        <div class="flex-input">
+            <div>
+                <label for="name"></label>
+                <input type="text" name="name" placeholder="Name">
+            </div>
+            <div>
+                <label for="email"></label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+        </div>
+        <label for="subject"></label>
+        <input type="text" name="subject" placeholder="Subject">
+        <label for="message"></label>
+        <textarea name="message" id="message" placeholder="Message"></textarea>
+        <div class="btn">
+            <button class="btn-primary">Send Us</button>
+        </div>
+    </form>
+</section>
+
+<!-- contact information  -->
+<section class="contact-info container">
+    <div class="contact-item">
+        <h1>CONTACT US</h1>
+    </div>
+    <div class="contact-item">
+        <h3>CALL CENTER</h3>
+        <p>+1 234 567 890</p>
+        <p>+1 987 654 321</p>
+    </div>
+    <div class="contact-item">
+        <h3>WORKING HOURS</h3>
+        <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+        <p>Sunday: Closed</p>
+    </div>
+    <div class="contact-item">
+        <h3>OUR LOCATION</h3>
+        <p>123 Main Street</p>
+        <p>City, State, 12345</p>
+        <p>USA</p>
+    </div>
+</section>
+
+<footer>Copyright &copy; 2025 All rights reseved</footer>
 </body>
+
 </html>
